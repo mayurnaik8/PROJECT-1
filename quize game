@@ -1,0 +1,39 @@
+STEPS :
+
+Step 1: Define the Questions and Answers
+We’ll start by defining the questions, possible answers, and the correct answer for each question. We'll use a dictionary to store this information.
+
+Step 2: Implement the Quiz Game
+Next, we’ll implement the quiz game. We’ll iterate over the questions, present the options to the user, and check their answers. We’ll also keep track of the score.
+
+Step 3: Run the Quiz Game
+Finally, we’ll call the run_quiz function to start the game.
+
+Explanation of the Code :
+
+Data Structures:
+quiz_questions is a list of dictionaries. Each dictionary contains a question, a list of options, and the correct answer. This structure helps to keep questions and their details organized.
+
+
+Control Flow:
+The for loop iterates over each question in the quiz_questions list.
+Conditional statements check if the user’s answer matches the correct answer.
+
+
+User Input Handling:
+input() is used to get the user's answer.
+strip().upper() ensures that user input is case-insensitive and any leading or trailing whitespace is removed.
+
+
+Scoring System:
+The score variable tracks the number of correct answers.
+At the end of the game, the final score is displayed.
+
+
+Function Definitions:
+display_question() handles displaying the question and collecting the user’s response.
+check_answer() compares the user’s response with the correct answer.
+
+
+Program Execution:
+main() orchestrates the flow of the game, from greeting the user to displaying questions and calculating the final score.
