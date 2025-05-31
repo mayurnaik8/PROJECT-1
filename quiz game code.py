@@ -23,10 +23,10 @@ def run_quiz(quiz):
         for option in details["options"]:
             print(option)
         
-        # Get the user's answer
+        
         user_answer = input("Please enter the letter of your answer: ").strip().upper()
         
-        # Check if the answer is correct
+        
         if user_answer == details["answer"]:
             print("Correct!")
             score += 1
