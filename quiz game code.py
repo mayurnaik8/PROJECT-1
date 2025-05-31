@@ -1,5 +1,4 @@
 
-# Define the quiz questions, options, and answers
 quiz = {
     "What is the capital of France?": {
         "options": ["A. Berlin", "B. Madrid", "C. Paris", "D. Rome"],
@@ -34,9 +33,9 @@ def run_quiz(quiz):
         else:
             print("Wrong! The correct answer was", details["answer"])
         
-        print()  # Print a blank line for better readability
+        print() 
 
-    # Print the final score
+    
     print(f"You got {score} out of {total_questions} correct.")
 
 if __name__ == "__main__":
